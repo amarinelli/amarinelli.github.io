@@ -52,7 +52,7 @@ h3 {
 .github-icon {
     position: fixed;
     bottom: 5px;
-    right: 5px;
+    left: 5px;
 }
 .shake:hover {
     -webkit-animation: shake .2s linear 0 infinite normal;
