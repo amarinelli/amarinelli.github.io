@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Choose Your Own Adventure!</title>
+		<script>
+			var myFunction = function(){
+			
+				/*
+				Start your code below here ↓↓
+				*/
+				
+				alert("Are you SCRAPPLE ready?");
+				var scale = prompt("On a scale of 0-10 - where 0 is NEVER and 10 is I am eating some right now - what's your urge for mixed scraps and trimmings in a given week?");
+				if(scale < 8){
+					alert("Hm, really? Follow here: http://www.whatisscrapple.com/author/adam-gerard. It will change your life. It changed Adam Gerard's since the innocent age of 15. We take no responsibility for your participation in this game. Let's see how you do.");
+					} 
+				else {
+					alert("WOW! You're a Scrapple Fanantic! Let's not waste time starting your Scrapple Adventure");
+					}
+					alert("You are at a luau roasting a succulent pig (mmmmm), and you hear 'What should we do with all these scraps?'");
+					alert("Suddenly, Adam crashes your luau (in a grass skirt), stops and says, 'Did someone say SCRAPPLE?'");
+					var userAnswer = prompt("Do you want to convert those scraps? Type `yes` or `no`");
+				   if (userAnswer.toLowerCase() === "yes") {
+					   alert("You and Adam whip out the aprons, cleavers and gloves. Chop chop chop, mince, mince! You cause concern for Adam, who decides to test you...");
+				   }
+				   var userAnswer2 = prompt("Just curious...which answer holds the animal and US state also used for Scrapple's name: 1) Eagle and Arizona OR 2) Rabbit and Pennsylvania OR 3) Muskrat and Texas? Type only the number.");
+				   if (userAnswer2.toLowerCase() === "2"){
+					alert("Whew, I KNEW you were awesome. Let's keep scrapplin'");
+					alert("The broth thickens, corn meal and trimmings all coming together to make that golden loaf of non-spam goodness. You and your family pan fry it up real nice and start a successful scrapper B&B - Adam stays for free.");
+				   }
+				   else{
+				     alert("Oh no! Can't believe you are going to waste that pig, your breakfast tomorrow will be boring. (Adam swoops away and leaves the grass skirt)");
+					   alert("Away in the distance, Adam sings 'I don't know why they can't see, all of the good that scrapple can be...so I trail run until I find, more folks to change their mind (la la oh oh whoa la la - scrapple).'");
+				   }
+				var feedback = prompt("Thank you for playing our game. Please rate our game out of 10. Your feedback is greatly appreciated.");
+				 if (feedback > 8) {
+				   alert("Thank you! We should have breakfast together and exchange scrapple receipes.");
+				   }
+				 else {
+					alert("Fine, keep eating normal things until you're just as scrapplishious as Adam is.");
+				 }
+				
+				/*
+				End your code above here ↑↑ (keep the following curly brace)
+				*/
+			}
+		</script>
+		<style>
+			html {
+				background-image: url("https://c6.staticflickr.com/6/5538/30260743021_d34bec870f.jpg");
+				background-repeat: repeat;
+				background-attachment: fixed;
+			}
+		</style>
+	</head>
+	<body>
+		<center><button onclick="myFunction()">HUNGRY TO PLAY!</button></center>
+	</body>
+ <html>
