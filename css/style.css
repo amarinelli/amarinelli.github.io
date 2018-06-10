@@ -8,7 +8,7 @@ body {
     font: normal 16px/1.2 "Roboto", Helvetica, Arial, sans-serif;
     text-align: center;
     text-shadow: 1px 1px #000;
-    background: #111 url('../images/mountains.png') no-repeat center center fixed;
+    background: #111 url('../images/mountains.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -36,6 +36,10 @@ body {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     animation-delay: 0.5s;
+}
+
+h3::selection {
+    background: black;
 }
 
 @-webkit-keyframes fadeIn {
