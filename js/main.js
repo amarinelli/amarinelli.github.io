@@ -1,4 +1,4 @@
-(function(angular) {
+(function (angular) {
 
     // The module code
     angular
@@ -8,7 +8,7 @@
     // The controller code
     function MainController($scope, $http) {
 
-        $scope.greeting = "Hello ...";
+        $scope.greeting = "Hello";
 
     }
 
