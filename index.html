@@ -20,9 +20,19 @@
 
 <body>
     <main>
-        <h1 class="fade-in">Hello</h1>
+        <h1 class="fade-in"><span id="hello">Hello</span></h1>
         <p class="fade-in subtitle"><span class="highlight">Adam Marinelli</span></p>
     </main>
+
+    <script>
+        const hello = document.getElementById('hello');
+        const colors = ['#FFF', '#FFD166', '#7FDBFF', '#FF8FA3', '#9BF6B0'];
+        let i = 0;
+        hello.addEventListener('click', () => {
+            i = (i + 1) % colors.length;
+            hello.style.color = colors[i];
+        });
+    </script>
 </body>
 
 </html>
